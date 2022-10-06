@@ -1,0 +1,14 @@
+public class DREAM {
+public static void main(String[] args) {
+while(true) {
+String Mylover = "";
+for (int i = 0; i < 3; i++) {
+char a = (char)(Math.random() * 26 + 65);
+Mylover = Mylover + a;
+}
+if (Mylover.equals("YOU")) {
+System.out.println("My dream comes true!");
+break;
+}
+}
+}
